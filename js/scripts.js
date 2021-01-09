@@ -70,10 +70,11 @@
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.value = 'Send Email';
-                        Swal.fire(
-                        'Message Sent!',
-                        'Thank you!',
-                        'success');
+                        Swal.fire({
+                        title:'Message Sent!',
+                        text: 'Thank you!',
+                        confirmButtonColor: '#64a19d'
+                    });
                         document.getElementById('firstName').value=''; 
                         document.getElementById('lastName').value='';
                         document.getElementById('email').value=''; 
