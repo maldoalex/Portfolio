@@ -55,6 +55,8 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
+  
+
     // Contact Form Control
     const btn = document.getElementById('button');
 
