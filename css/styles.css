@@ -11480,14 +11480,14 @@ a.ext-link>div {
 
 .wrapper .row:first-child> :nth-child(2) {
   background-color: #6c3f31;
-  background-image: url("https://mdbootstrap.com/img/Marketing/general/angular-presentation-wide.png");
+  background-image: url("/assets/img/matrix.jpg");
   background-position: center center;
   background-size: cover;
 }
 
 .wrapper .row:first-child> :nth-child(3) {
   background-color: #323119;
-  background-image: url("https://mdbootstrap.com/img/Marketing/general/react-presentation-wide.png");
+  background-image: url("/assets/img/sushibelt.svg");
   background-position: center center;
   background-size: cover;
 }
